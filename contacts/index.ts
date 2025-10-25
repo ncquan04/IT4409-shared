@@ -1,5 +1,5 @@
 export class Contacts {
-    static AUTH_PATH = "auth";
+    static AUTH_PATH = "api/auth";
     static API_CONFIG = {
         AUTH: {
             LOGIN: `${Contacts.AUTH_PATH}/login`,
